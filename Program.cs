@@ -4,9 +4,9 @@ namespace PrimeNumbersRefactoringSample
 {
     class Program
     {
-        static void Main(string[] args)
+        static void OldMain(string[] args)
         {
-            int[] n = GeneratePrimes.GeneratePrimeNumbers(50);
+            int[] n = GeneratePrimes.GeneratePrimeNumbers(100);
 
             for (int i = 0; i < n.Length; i++)
             {

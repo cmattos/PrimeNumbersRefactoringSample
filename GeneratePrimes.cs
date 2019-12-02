@@ -22,7 +22,7 @@ namespace PrimeNumbersRefactoringSample
                 {
                     if (f[i])
                     {
-                        for (j = 2 * 1; j < s; j += i)
+                        for (j = 2 * i; j < s; j += i)
                             f[j] = false;
                     }
                 }

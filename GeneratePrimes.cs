@@ -2,6 +2,9 @@
 
 namespace PrimeNumbersRefactoringSample
 {
+    /// <summary>
+    /// Just adding new comment to illustrate the exercise.
+    /// </summary>
     public class GeneratePrimes
     {
         public static int[] GeneratePrimeNumbers(int maxValue)
